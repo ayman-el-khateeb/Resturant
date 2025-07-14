@@ -1,0 +1,166 @@
+/* Global Rules */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ==================================================
+                  Start head 
+ =================================================== */
+.up-page {
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.head-area {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+.head-area ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.head-area ul li {
+  transition: 0.2s;
+  padding: 15px;
+  cursor: pointer;
+}
+.head-area ul a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.head-area ul li:hover {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #eac84c;
+}
+/* ==================================================
+                  End head 
+ =================================================== */
+
+/* ==================================================
+                  Start sectioins 
+ =================================================== */
+.sectiones {
+  display: flex;
+  flex-direction: column;
+}
+.sectiones .up-h2 {
+  height: 50px;
+}
+.sectiones h2 {
+  padding-left: 25px;
+}
+.sectiones .parent-1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f5f5;
+}
+.sectiones .parent-1 .chiled {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+.sectiones .parent-1 .chiled .image {
+  width: 100%;
+  height: 150px;
+}
+.sectiones .parent-1 .chiled img {
+  width: 100%;
+}
+.sectiones .parent-1 .chiled .information h4 {
+  margin: 10px 0;
+}
+.sectiones .parent-1 .chiled .information p {
+  margin: 10px 0;
+}
+.sectiones .parent-1 .chiled .information .btn {
+  display: flex;
+  justify-content: center;
+}
+.sectiones .parent-1 .chiled .information .btn button {
+  background-color: #eac84c;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* ==================================================
+                  End sectioins 
+ =================================================== */
+
+/* ==================================================
+                  Start nav bar 
+ =================================================== */
+
+.nav {
+  text-align: center;
+  position: fixed;
+  right: 0px;
+  height: 100vh;
+  width: 28%;
+  background-color: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.185);
+}
+.nav .hed-nav {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  justify-content: space-between;
+  border: 0.5px solid rgba(0, 0, 0, 0.185);
+  padding: 0 15px;
+}
+.nav .hed-nav h3 {
+  font-weight: 500;
+}
+.nav .hed-nav a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #eac84c;
+  cursor: pointer;
+}
+.land-nav {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-clipboard {
+  font-weight: 400;
+  font-size: 50px;
+}
+.land-nav h3 {
+  font-weight: 500;
+}
+.land-nav p {
+  letter-spacing: 0.1px;
+}
+.nav button {
+  background-color: #eac84c;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: 80%;
+  cursor: pointer;
+}
+/* ==================================================
+                  End nav bar 
+ =================================================== */
